@@ -1,4 +1,5 @@
 Dockerized Diagnostic CLI
+
 Overview
 
 This project is a simple diagnostic command-line tool built with Bash and packaged using Docker. The goal of the project is to take a Linux diagnostic script and run it inside a container so that it can work consistently on different systems.
@@ -14,6 +15,7 @@ The application is containerized using Docker and can also be run using Docker C
 
 Project Structure
 assignment-2/
+
 ├── README.md
 ├── Dockerfile
 ├── compose.yaml
@@ -28,8 +30,8 @@ Requirements:
 
 Before running this project, make sure the following are installed:
 
-Docker
-Docker Compose
+* Docker
+* Docker Compose
 
 An internet connection is required when building the image for the first time because Docker needs to download the base image and install the required packages from Docker Hub and Alpine repositories.
 
@@ -91,11 +93,11 @@ Run the grading script:
 
 ./grade.sh
 
+
 Exit Codes:
-Exit Code	   Meaning
-    0	   Successful execution
-    1	   Operational or runtime failure
-    2	   Invalid command or invalid input
+*  0	   Successful execution
+*  1	   Operational or runtime failure
+*  s2	   Invalid command or invalid input
 
 Assumptions:
 Docker and Docker Compose are installed.
