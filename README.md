@@ -97,7 +97,7 @@ Run the grading script:
 Exit Codes:
 *  0	   Successful execution
 *  1	   Operational or runtime failure
-*  s2	   Invalid command or invalid input
+*  2	   Invalid command or invalid input
 
 Assumptions:
 Docker and Docker Compose are installed.
